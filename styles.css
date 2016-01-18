@@ -1,0 +1,66 @@
+h1{
+  color: red;
+  border: solid black 2px;
+  border-radius: 5px;
+  background: yellow;
+  font-family: 'Bangers';
+  font-size: 50px;
+  text-shadow: -1px -1px 0 #000,
+    2px -1px 1px #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: center;
+  margin: 0px;
+}
+
+
+.title{
+  width: 400px;
+  border: red solid 5px;
+  background: red;
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px black;
+  letter-spacing: 0.2em;
+  margin: 20px;
+}
+
+/*ingredients below*/
+.beefPatty{
+  width: 300px;
+  height: 75px;
+  background: sienna;
+  border-radius: 30px;
+  border: 1px black solid;
+}
+
+.cheese{
+  width: 300px;
+  height: 15px;
+  background: gold;
+  border-radius: 5px;
+}
+
+.topBun{
+  width: 300px;
+  height: 65px;
+  background: moccasin;
+  background: linear-gradient(to bottom, moccasin 20%, #AA8647 100%);
+  border-radius: 50px 50px 5px 5px;
+ 
+}
+
+.bottomBun{
+  width: 300px;
+  height: 65px;
+  background: moccasin;
+  background: linear-gradient(to top, moccasin 20%, #AA8647 100%);
+  border-radius: 5px 5px 50px 50px;
+}
+
+.bacon{
+  width:300px;
+  height: 30px;
+  background: url(http://hitwallpaper.com/wp-content/uploads/2013/07/bacon.jpg);
+  background-size:300px 200px;
+  border-radius: 12px;
+}
