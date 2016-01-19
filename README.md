@@ -23,15 +23,19 @@ Read all about **while loops** here: https://developer.mozilla.org/en-US/docs/We
 
 4. buildBurger should use a while loop to go through the list of ingredients and add each one to the index.html
 * Each loop will add a div with a different class name to the DOM, using the following lines of code. 
-** var div = "<div class='" + ??? +"'></div>";
-** document.body.innerHTML += div;
+
+	var div = "<div class='" + ??? +"'></div>";
+	document.body.innerHTML += div;
+
 * You will need to figure out what the **???*** is. You will need to access the index of the array you created. 
 * Be sure to increment an index counter.
 
 5. Call the buildBurger function inside this code snippit: 
-*window.onload = function (){
-buildBurger(some_ingredients);
-};
+	window.onload = function (){
+	
+
+
+	};
 
 ##Bonus: Create your own ingredients! Improve the look of others. [CSS]
 
