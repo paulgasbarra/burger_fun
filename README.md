@@ -28,7 +28,7 @@ Read all about **while loops** here: https://developer.mozilla.org/en-US/docs/We
 	var div = "<div class='" + ??? +"'></div>";
 	document.body.innerHTML += div;
 ```
-* You will need to figure out what the **???*** is. You will need to access the index of the array you created. 
+* You will need to figure out what the **???** is. You will need to access the index of the array you created. 
 * Be sure to increment an index counter.
 
 5. Call the buildBurger function inside this code snippit: 
@@ -36,14 +36,14 @@ Read all about **while loops** here: https://developer.mozilla.org/en-US/docs/We
 	window.onload = function (){
 
 	};
+```
+**Bonus**: Create your own ingredients! Improve the look of others. [CSS]
 
-##Bonus: Create your own ingredients! Improve the look of others. [CSS]
+**Bonus**: Set a maximum number of ingredients. Alert chef if max number is exceeded. [Conditional]
 
-##Bonus: Set a maximum number of ingredients. Alert chef if max number is exceeded. [Conditional]
+**Bonus**: Total the price of the burger. Each ingredient is $0.50. Display the price on the page. [Arithmetic and DOM Manipulation] 
 
-##Bonus: Total the price of the burger. Each ingredient is $0.50. Display the price on the page. [Arithmetic and DOM Manipulation] 
-
-##Bonus: Create a couple of different burgers with a different array of ingredients. Can you build a plain burger, an open face burger, a bacon cheese burger? [Arrays]
+**Bonus**: Create a couple of different burgers with a different array of ingredients. Can you build a plain burger, an open face burger, a bacon cheese burger? [Arrays]
 
 Have fun and happy hamburgering!
 
