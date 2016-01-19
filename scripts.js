@@ -9,13 +9,9 @@ function buildBurger(ingredients){
 } // end buildBurger
 
 // Our ingredient array
-var some_ingredients = ["topBun", "lettuce", "cheese", "kittens", "bacon", "beefPatty", "bottomBun"]; 
+var some_ingredients = ["topBun", "cheese", "kittens", "bacon", "beefPatty", "bottomBun"]; 
 
 // Now call our function, with that ingredients array
+window.onload = function (){
 buildBurger(some_ingredients);
-
-
-
-Arrays and Loops
-
-Arrays are a form 
+};

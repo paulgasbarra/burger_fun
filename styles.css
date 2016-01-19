@@ -15,6 +15,7 @@ h1{
 
 
 .title{
+  margin: 0 auto;
   width: 400px;
   border: red solid 5px;
   background: red;
@@ -61,6 +62,15 @@ h1{
   width:300px;
   height: 30px;
   background: url(http://hitwallpaper.com/wp-content/uploads/2013/07/bacon.jpg);
+  background-size:300px 200px;
+  border-radius: 12px;
+}
+
+
+.kittens{
+  width:300px;
+  height: 75px;
+  background: url(https://www.onlinefabricstore.net/images/product-images/standard/31772_1.jpg);
   background-size:300px 200px;
   border-radius: 12px;
 }
